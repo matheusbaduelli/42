@@ -10,7 +10,8 @@ variavel1 = 1
 
 print(f"inicio da variável: {variavel1}")
 
-variavel1 = add_one(variavel1)
+
+print(f"depois do add_one na função: {add_one(variavel1)}")
 
 print(f"depois do add_one na variavel: {variavel1}")
 

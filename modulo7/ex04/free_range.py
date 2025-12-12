@@ -16,7 +16,7 @@ else:
     primeiro_index = argvs[1]
     segundo_index = argvs[-1]
     if primeiro_index > segundo_index:
-        print("none")
+        print("O primeiro argumento deve ser menor que o segundo")
     else:
 
         for i in range(int(primeiro_index),int(segundo_index)+1):
