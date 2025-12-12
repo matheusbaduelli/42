@@ -28,7 +28,8 @@ def funcoes(argvs):
     if len(argvs) == 1:
         print("none")
     else:
-        shrink(argvs)
         enlarge(argvs)
+        shrink(argvs)
+        
 
 funcoes(argvs)
