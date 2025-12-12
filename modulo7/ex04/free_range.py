@@ -7,13 +7,14 @@ argvs = sys.argv
 
 lista = []
 
-primeiro_index = argvs[1]
-segundo_index = argvs[-1]
+
 
 if len(argvs) != 3:
     print("none")
 
 else:
+    primeiro_index = argvs[1]
+    segundo_index = argvs[-1]
     if primeiro_index > segundo_index:
         print("none")
     else:
