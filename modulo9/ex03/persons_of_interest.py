@@ -8,6 +8,7 @@ women_scientists = {
 "grace": { "name": "Grace Hopper", "date_of_birth": "1906" }
 }
 
+
 def famous_births(pessoas):
     odernadas  =  sorted(
         pessoas.values(),
@@ -15,7 +16,7 @@ def famous_births(pessoas):
     )
 
     for pessoa in odernadas:
-        print(pessoa)
+        print(pessoa["name"] + " Lovelace is a great scientist born in " + pessoa["date_of_birth"])
 
 
 famous_births(women_scientists)    
